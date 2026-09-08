@@ -1,0 +1,22 @@
+BioFacility Solutions — Hostinger deployment
+
+1. Open Hostinger File Manager.
+2. Go to the domain document root, normally public_html.
+3. Remove or rename any old default index.php / index.html only after making a backup.
+4. Upload this ZIP to public_html and EXTRACT IT THERE.
+5. After extraction, public_html must contain index.html directly, alongside styles.css, script.js, contact.php, assets/, downloads/, and the resource HTML pages.
+6. Do NOT leave the files inside an extra bfs-website-v15-hostinger-ready folder.
+7. Visit https://biofacilitysolutions.ca/ and hard-refresh the browser.
+
+Expected root structure:
+public_html/
+  index.html
+  styles.css
+  script.js
+  contact.php
+  assets/
+  downloads/
+  25-questions.html
+  laboratory-infrastructure-risk-assessment.html
+  ult-freezer-infrastructure-guide.html
+  critical-laboratory-alarm-guide.html

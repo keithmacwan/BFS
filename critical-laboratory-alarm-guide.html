@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="BioFacility Solutions guide to critical laboratory alarm delivery: detection, BAS logic, communications, routing, escalation, acknowledgement and response." />
+  <title>Critical Laboratory Alarm Guide | BioFacility Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html#top" aria-label="BioFacility Solutions home">
+        <img class="brand-mark" src="assets/bfs-logo-mark.png" alt="" aria-hidden="true" />
+        <span class="brand-copy"><strong>BioFacility Solutions</strong><small>Protecting science through resilient infrastructure.</small></span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#industries">Industries</a>
+        <a href="index.html#funding">Funding Readiness</a>
+        <a href="index.html#about">About</a>
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true">
+            Resources <span class="nav-caret" aria-hidden="true"></span>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="laboratory-infrastructure-risk-assessment.html"><strong>Risk Assessment Playbook</strong><span>Framework, priorities &amp; deliverables</span></a>
+            <a href="25-questions.html"><strong>25-Question Checklist</strong><span>Facility-risk questions for lab leaders</span></a>
+            <a href="ult-freezer-infrastructure-guide.html"><strong>ULT Freezer Guide</strong><span>Power, cooling &amp; alarm scenarios</span></a>
+            <a href="critical-laboratory-alarm-guide.html"><strong>Critical Alarm Guide</strong><span>Detection, routing &amp; escalation</span></a>
+          </div>
+        </div>
+        <a class="btn btn-small" href="index.html#contact">Request an Assessment</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="playbook-hero">
+      <div class="playbook-hero-media" aria-hidden="true"><img src="assets/hero-lab.png" alt="" /><div></div></div>
+      <div class="container playbook-hero-grid">
+        <div class="playbook-hero-copy reveal">
+          <a class="back-link" href="index.html">← Back to BFS</a>
+          <p class="eyebrow">Critical Alarm Strategy Guide</p>
+          <h1>Are critical laboratory alarms reaching the right person at the right time?</h1>
+          <p class="playbook-subhead">A practical guide to the complete alarm chain, from detection to action.</p>
+          <p class="playbook-lead">A critical alarm is only useful when the correct condition is detected, classified appropriately, transmitted reliably, delivered to the right people, acknowledged, escalated when necessary and followed by a clear response.</p>
+          <div class="hero-actions">
+            <a class="btn" href="index.html#contact">Review My Alarm Strategy</a>
+            <a class="text-link" href="#alarm-chain">Trace the alarm chain <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <aside class="playbook-summary reveal">
+          <p class="risk-kicker">The alarm question</p>
+          <strong>7</strong>
+          <span>links must work for an alarm to become an effective response</span>
+          <ul><li>Detect & classify</li><li>Communicate & route</li><li>Acknowledge & escalate</li><li>Respond</li></ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section playbook-intro">
+      <div class="container playbook-two-col">
+        <div class="section-heading reveal"><p class="eyebrow">The hidden risk</p><h2>An alarm can exist in the BAS and still fail operationally.</h2></div>
+        <div class="playbook-copy reveal">
+          <p>Laboratories often have thousands of monitored points across HVAC systems, freezers, cold rooms, pressure-controlled spaces, emergency power, utilities and specialty equipment. The presence of an alarm point does not prove that the alarm will protect the laboratory.</p>
+          <ul class="gap-list">
+            <li>The sensor may detect the condition, but the alarm limit or delay may not reflect the actual laboratory risk.</li>
+            <li>The BAS may create a critical alarm, while a server, network, email or notification failure prevents delivery.</li>
+            <li>The message may reach someone, but not identify the room, asset, condition or expected response clearly enough.</li>
+            <li>The first recipient may be unavailable after hours, with no defined acknowledgement or escalation path.</li>
+            <li>Frequent nuisance alarms may reduce attention to the event that actually matters.</li>
+          </ul>
+          <p><strong>BFS reviews the alarm as an end-to-end operational system, not only as a BAS point.</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-navy outcomes-section">
+      <div class="container">
+        <div class="section-heading light reveal"><p class="eyebrow">Three outcomes</p><h2>A stronger alarm strategy improves visibility, response and accountability.</h2></div>
+        <div class="outcome-grid">
+          <article class="outcome-card reveal"><span>01</span><h3>Detect meaningful conditions</h3><p>Confirm that critical points, alarm thresholds, delays, deadbands and priorities match the consequence to the laboratory rather than simply a default controls setting.</p></article>
+          <article class="outcome-card reveal"><span>02</span><h3>Reach the right responder</h3><p>Define who receives each alarm during normal hours and after hours, how delivery is verified and what happens when the first recipient does not respond.</p></article>
+          <article class="outcome-card reveal"><span>03</span><h3>Turn alarms into action</h3><p>Give responders enough information to locate the asset, understand the condition, protect the laboratory and escalate to facilities, laboratory leadership or service support.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section framework-section" id="alarm-chain">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">The BFS Alarm Chain</p><h2>Seven links between a developing condition and an effective response.</h2><p>A weakness anywhere in the chain can make a technically functioning alarm operationally ineffective.</p></div>
+        <div class="layer-stack">
+          <article class="layer-card reveal"><div class="layer-number">01</div><div><p class="layer-label">Detect</p><h3>Is the correct condition actually being measured?</h3><p>Review sensor coverage, monitored points, point descriptions, location, signal quality and whether the monitored variable reflects the laboratory risk.</p><div class="mini-tags"><span>Temperature</span><span>Humidity</span><span>Pressure</span><span>Equipment status</span><span>Power status</span></div></div></article>
+          <article class="layer-card reveal"><div class="layer-number">02</div><div><p class="layer-label">Classify</p><h3>Does the alarm logic match the consequence?</h3><p>Review limits, priority, delay, deadband, persistence, suppression and return-to-normal logic. Alarm settings should balance early warning with nuisance-alarm control.</p></div></article>
+          <article class="layer-card reveal"><div class="layer-number">03</div><div><p class="layer-label">Communicate</p><h3>Can the alarm travel through the full technology path?</h3><p>Trace the route through controller, network, server, gateway, email/SMS/notification service and recipient device. Identify dependencies on power, IT infrastructure and third-party services.</p></div></article>
+          <article class="layer-card reveal"><div class="layer-number">04</div><div><p class="layer-label">Route</p><h3>Is it going to the correct person or team?</h3><p>Confirm notification groups by site, system, alarm category, time of day and operating responsibility. Keep contact lists and ownership current.</p></div></article>
+          <article class="layer-card reveal"><div class="layer-number">05</div><div><p class="layer-label">Acknowledge</p><h3>Do you know that a human has taken ownership?</h3><p>Receipt and acknowledgement are not the same thing. Define how alarm ownership is confirmed, recorded and handed over during shift changes or prolonged events.</p></div></article>
+          <article class="layer-card reveal"><div class="layer-number">06</div><div><p class="layer-label">Escalate</p><h3>What happens when the first response does not occur?</h3><p>Define time-based escalation to the next responder, supervisor, facilities team or laboratory contact based on severity and expected response time.</p></div></article>
+          <article class="layer-card reveal"><div class="layer-number">07</div><div><p class="layer-label">Respond</p><h3>Can the responder take the right action quickly?</h3><p>Provide clear location, asset identification, alarm condition, immediate action, contact information and escalation expectations. The message should support action without requiring detective work.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section risk-priority-section">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">Failure Scenarios</p><h2>How a critical alarm can fail even when the equipment is monitored.</h2></div>
+        <div class="combo-grid">
+          <article class="combo-card reveal"><span>Wrong logic</span><h3>The condition occurs, but the alarm comes too late.</h3><p>A delay, threshold or deadband selected for convenience can consume valuable response time.</p></article>
+          <article class="combo-card reveal"><span>Communications loss</span><h3>The BAS sees the event, but the recipient never does.</h3><p>Network, server, gateway, SMTP, SMS or notification-service failure can interrupt the alarm path.</p></article>
+          <article class="combo-card reveal"><span>Stale routing</span><h3>The message is sent to a person who is no longer responsible.</h3><p>Contact groups can become outdated after staffing, coverage or organizational changes.</p></article>
+          <article class="combo-card reveal"><span>No escalation</span><h3>The first recipient misses the alarm after hours.</h3><p>Without acknowledgement and escalation, delivery can be mistaken for response.</p></article>
+          <article class="combo-card reveal"><span>Nuisance overload</span><h3>Frequent alarms reduce attention to critical events.</h3><p>Poor prioritization, unstable points and duplicate notifications can create alarm fatigue.</p></article>
+          <article class="combo-card reveal"><span>Unclear message</span><h3>The responder receives an alarm but cannot act quickly.</h3><p>Generic point names, missing locations or no response instruction can delay intervention.</p></article>
+          <article class="combo-card reveal"><span>Common-mode failure</span><h3>The event also disables the monitoring path.</h3><p>A power or network outage may affect both the protected equipment and the system expected to report its failure.</p></article>
+          <article class="combo-card reveal"><span>Alarm flood</span><h3>A major failure produces dozens or hundreds of alarms at once.</h3><p>Without hierarchy and event grouping, responders may struggle to identify the initiating event and highest-consequence conditions.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-navy">
+      <div class="container">
+        <div class="section-heading light reveal"><p class="eyebrow">Alarm Review Method</p><h2>From point list to operational response.</h2></div>
+        <div class="process-timeline">
+          <article class="process-step reveal"><span>01</span><h3>Inventory</h3><p>Identify critical rooms, equipment, utilities and BAS/alarm points. Capture point name, tag, condition, priority, delay, limits and current recipients.</p></article>
+          <article class="process-step reveal"><span>02</span><h3>Challenge</h3><p>Ask what happens during credible HVAC, power, cold-storage, utility, controls, network and server failures, and determine whether the alarm survives the event.</p></article>
+          <article class="process-step reveal"><span>03</span><h3>Test</h3><p>Where permitted by the facility, verify selected alarm paths from field condition or simulated point through notification, acknowledgement and escalation.</p></article>
+          <article class="process-step reveal"><span>04</span><h3>Standardize</h3><p>Create consistent naming, priority, delay, routing, escalation and response expectations tied to laboratory consequence.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section warning-section">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">12 questions to ask now</p><h2>Can you answer these confidently?</h2></div>
+        <div class="warning-grid">
+          <div class="warning-item reveal">Which laboratory alarms are truly critical, and why?</div>
+          <div class="warning-item reveal">Are alarm names and locations understandable without opening drawings?</div>
+          <div class="warning-item reveal">Are limits, delays and deadbands based on actual operational risk?</div>
+          <div class="warning-item reveal">Who receives each critical alarm during business hours?</div>
+          <div class="warning-item reveal">Who receives it after hours, weekends and holidays?</div>
+          <div class="warning-item reveal">How is acknowledgement confirmed?</div>
+          <div class="warning-item reveal">How long before an unacknowledged alarm escalates?</div>
+          <div class="warning-item reveal">What happens if the BAS server, network or notification service is unavailable?</div>
+          <div class="warning-item reveal">Are alarm contacts and notification groups routinely reviewed?</div>
+          <div class="warning-item reveal">Do nuisance alarms make important alarms easier to miss?</div>
+          <div class="warning-item reveal">Does the message tell the responder what to check and who to call?</div>
+          <div class="warning-item reveal">Has the complete alarm path been tested recently?</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why-bfs-section">
+      <div class="container playbook-two-col">
+        <div class="section-heading reveal"><p class="eyebrow">What a BFS alarm assessment can include</p><h2>A practical alarm-management package for laboratory infrastructure.</h2></div>
+        <div class="why-bfs-copy reveal">
+          <ul>
+            <li>Critical alarm inventory and classification</li>
+            <li>Point descriptions and naming review</li>
+            <li>Alarm priority, threshold, delay and deadband review</li>
+            <li>Notification groups and after-hours routing</li>
+            <li>Acknowledgement and escalation strategy</li>
+            <li>BAS/network/server/communications dependency review</li>
+            <li>Loss-of-monitoring and common-mode failure scenarios</li>
+            <li>Operator response instructions and ownership</li>
+            <li>Nuisance-alarm and alarm-flood observations</li>
+            <li>Critical Alarm Matrix with recommended next steps</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-playbook-cta">
+      <div class="container final-cta-card reveal">
+        <div><p class="eyebrow">From alarm to action</p><h2>A notification is not protection until the right person can respond.</h2><p>BFS can review the complete alarm pathway supporting your laboratory, from monitored point and BAS logic to notification, escalation and operator response.</p></div>
+        <div class="final-cta-actions"><a class="btn" href="index.html#contact">Request an Alarm Strategy Review</a><a class="text-link dark" href="25-questions.html">Read the 25 facility-risk questions →</a></div>
+      </div>
+    </section>
+
+    <section class="section reference-section">
+      <div class="container playbook-two-col">
+        <div class="section-heading reveal"><p class="eyebrow">Important context</p><h2>Alarm settings must be facility-specific.</h2></div>
+        <div class="playbook-copy reveal"><p>This guide is an infrastructure-risk and alarm-strategy discussion tool. It does not prescribe universal alarm limits, notification times or response procedures. Criticality, thresholds, delays, escalation timing and operator actions should be established for the specific laboratory process, equipment, validated requirements, institutional policies and applicable codes or standards.</p><p>Alarm testing should be planned and authorized so that simulations, overrides or notification tests do not create unintended operational impacts.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>BioFacility Solutions</strong><p class="footer-motto">Protecting science through resilient infrastructure.</p></div>
+      <div><p>Engineering + Laboratory Science</p><p>Ontario, Canada</p></div>
+      <div><a href="index.html">Home</a><a href="index.html#contact">Request an Assessment</a></div>
+    </div>
+  </footer>
+  <div class="sticky-assessment-cta"><span>Concerned about critical alarm delivery?</span><a href="index.html#contact">Discuss the risk</a></div>
+  <script src="script.js"></script>
+</body>
+</html>
