@@ -71,3 +71,12 @@ This package is intended for use only after BioFacility Solutions has received i
 - Removed the duplicated motto line from the hero; the motto remains in the site brand/header.
 - Credential strip now reads: Ontario P.Eng. | PEO Certificate of Authorization | Engineering + Laboratory Science.
 - Added cache-busting query strings for GitHub/Hostinger deployment consistency.
+
+
+## v23 update
+- Institutional experience integrated into each principal bio.
+- Professional liability insurance added to assurance/credential messaging.
+- Consulting cards and capability details tightened.
+- ULT technical-context/limitations section removed.
+- Critical Alarm hero now shows seven individual checklist links.
+- Visible em-dash styling removed from key site copy.

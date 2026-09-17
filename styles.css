@@ -682,3 +682,195 @@ body{background:#fff;color:var(--ink);font-size:17px;line-height:1.7}
   .consulting-card h3{margin-top:24px}
   .principal-consulting-note{padding:25px 23px}
 }
+
+
+/* v21 — selected institutional experience */
+.institutional-experience{
+  margin-top:34px;
+  padding:34px;
+  border:1px solid var(--line);
+  border-radius:16px;
+  background:linear-gradient(180deg,#f9fbfc 0%,#f4f8f9 100%);
+}
+.institutional-experience-head{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:46px;
+  align-items:end;
+  margin-bottom:26px;
+}
+.institutional-experience-head h3{
+  font:700 clamp(27px,3vw,39px)/1.08 Manrope,Inter,sans-serif;
+  letter-spacing:-.035em;
+  margin:7px 0 0;
+  color:var(--navy);
+  max-width:670px;
+}
+.institutional-experience-head>p{
+  margin:0;
+  color:var(--muted);
+  font-size:15.5px;
+  line-height:1.65;
+  max-width:530px;
+}
+.institutional-experience-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+}
+.institution-person{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:24px;
+}
+.institution-person-head{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:18px;
+  padding-bottom:15px;
+  margin-bottom:16px;
+  border-bottom:1px solid var(--line);
+}
+.institution-person-head strong{
+  font:700 20px/1.2 Manrope,Inter,sans-serif;
+  color:var(--navy);
+}
+.institution-person-head span{
+  font-size:12px;
+  font-weight:700;
+  color:var(--teal);
+  white-space:nowrap;
+}
+.institution-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:9px;
+}
+.institution-tags>span{
+  display:inline-flex;
+  align-items:center;
+  min-height:38px;
+  padding:8px 12px;
+  border:1px solid #d5e1e6;
+  border-radius:999px;
+  background:#fbfdfd;
+  color:#243a50;
+  font-size:13px;
+  font-weight:650;
+  line-height:1.3;
+}
+.institution-tags small{
+  margin-left:4px;
+  color:var(--muted);
+  font-size:11px;
+  font-weight:500;
+}
+.institution-disclaimer{
+  margin:18px 2px 0;
+  color:#758395;
+  font-size:11.5px;
+  line-height:1.55;
+}
+@media(max-width:920px){
+  .institutional-experience-head,.institutional-experience-grid{grid-template-columns:1fr}
+  .institutional-experience-head{gap:16px}
+}
+@media(max-width:620px){
+  .institutional-experience{padding:24px 20px}
+  .institution-person{padding:20px}
+  .institution-person-head{align-items:flex-start;flex-direction:column;gap:6px}
+  .institution-tags>span{width:100%;border-radius:8px}
+}
+
+
+/* v22: Improve readability of dark design-principle callouts. */
+.playbook-mid-cta{
+  background:linear-gradient(135deg,#0a2948 0%,#0d355a 100%);
+  border-color:#31536e;
+  padding:34px 36px;
+}
+.playbook-mid-cta .eyebrow{
+  color:#66d9dc;
+  margin-bottom:14px;
+}
+.playbook-mid-cta h3{
+  color:#ffffff;
+  font-size:clamp(24px,2.5vw,32px);
+  line-height:1.22;
+  letter-spacing:-.025em;
+  max-width:760px;
+}
+.playbook-mid-cta .btn{
+  flex:0 0 auto;
+  box-shadow:0 10px 28px rgba(0,0,0,.12);
+}
+@media(max-width:680px){
+  .playbook-mid-cta{padding:26px}
+  .playbook-mid-cta h3{font-size:24px}
+}
+
+
+/* =========================================================
+   v23 — compact flow, integrated experience, readable alarm checklist
+   ========================================================= */
+/* Reduce excess whitespace in open capability rows. */
+.capability-row summary{min-height:96px}
+.capability-detail{padding-bottom:20px}
+.capability-detail a{margin-top:10px}
+
+/* Compact engineering consulting continuum. */
+.consulting-heading{margin-bottom:30px}
+.consulting-card{min-height:220px;padding:24px 24px 26px}
+.consulting-card h3{margin:26px 0 10px;font-size:25px}
+.consulting-card p{line-height:1.55}
+.principal-consulting-note{margin-top:18px;padding:24px 28px}
+
+/* Institutional experience now lives within each principal bio. */
+.founder-experience{margin-top:20px;border-top:1px solid var(--line);padding-top:14px}
+.founder-experience summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;cursor:pointer;color:var(--navy);font:700 14px/1.3 Manrope,Inter,sans-serif;padding:5px 0}
+.founder-experience summary::-webkit-details-marker{display:none}
+.founder-experience summary::after{content:"+";font:500 22px/1 Inter,sans-serif;color:var(--teal);margin-left:auto}
+.founder-experience[open] summary::after{content:"−"}
+.founder-experience summary small{font:700 11px/1.2 Inter,sans-serif;color:var(--teal);white-space:nowrap;margin-left:auto}
+.founder-experience .institution-tags{margin-top:13px;gap:7px}
+.founder-experience .institution-tags>span{min-height:32px;padding:6px 9px;font-size:11.5px;background:#f8fbfc}
+.founder-experience .institution-tags small{font-size:10px}
+.founder-experience-disclaimer{margin:15px 4px 0;color:#7a8997;font-size:11px;line-height:1.5}
+
+/* Four concise client-assurance signals. */
+.assurance-strip{grid-template-columns:repeat(4,1fr);margin-top:24px}
+.assurance-strip>div{padding:20px 20px}
+.assurance-strip strong{font-size:15.5px}
+.assurance-strip span{font-size:12.5px}
+
+/* Seven alarm-chain links shown as seven individual checks. */
+.alarm-summary{padding:25px 26px}
+.alarm-summary>strong{font-size:58px;margin-top:8px}
+.alarm-summary ul{display:grid;grid-template-columns:1fr 1fr;gap:2px 16px;padding-top:14px;margin-top:14px}
+.alarm-summary li{padding:5px 0;font-size:13.5px;white-space:nowrap}
+.alarm-summary li::before{margin-right:7px}
+
+/* Footer follows the page more naturally and includes insurance without becoming a large ribbon. */
+.site-footer{padding:30px 0}
+.footer-grid{gap:28px;font-size:13px;align-items:center}
+.footer-grid p{margin:2px 0;line-height:1.45}
+.footer-grid strong{font-size:16px}
+
+@media(max-width:1040px){
+  .assurance-strip{grid-template-columns:1fr 1fr}
+  .assurance-strip>div{border-bottom:1px solid var(--line)}
+}
+@media(max-width:920px){
+  .assurance-strip{grid-template-columns:1fr}
+  .alarm-summary ul{grid-template-columns:1fr 1fr}
+}
+@media(max-width:680px){
+  .consulting-card{min-height:0;padding:22px 20px}
+  .consulting-card h3{margin-top:18px}
+  .founder-experience summary{align-items:flex-start;flex-wrap:wrap}
+  .founder-experience summary small{margin-left:0}
+  .alarm-summary ul{grid-template-columns:1fr}
+  .site-footer{padding:25px 0}
+}
