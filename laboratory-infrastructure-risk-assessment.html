@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="BioFacility Solutions Laboratory Infrastructure Risk Assessment Playbook: protect critical research assets, strengthen resilience and prioritize capital decisions across HVAC, emergency power, cold storage, BAS, alarms and utilities." />
+  <meta name="description" content="BioFacility Solutions Laboratory Infrastructure Risk Assessment Framework: protect critical research assets, strengthen resilience and prioritize capital decisions across HVAC, emergency power, cold storage, BAS, alarms and utilities." />
   <title>Laboratory Infrastructure Risk Assessment | BioFacility Solutions</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=20" />
   <link rel="icon" type="image/png" href="assets/favicon.png" />
 </head>
 <body>
@@ -29,7 +29,7 @@
             Resources <span class="nav-caret" aria-hidden="true"></span>
           </button>
           <div class="nav-dropdown-menu">
-            <a href="laboratory-infrastructure-risk-assessment.html"><strong>Risk Assessment Playbook</strong><span>Framework, priorities &amp; deliverables</span></a>
+            <a href="laboratory-infrastructure-risk-assessment.html"><strong>Risk Assessment Framework</strong><span>Framework, priorities &amp; deliverables</span></a>
             <a href="25-questions.html"><strong>25-Question Checklist</strong><span>Facility-risk questions for lab leaders</span></a>
             <a href="ult-freezer-infrastructure-guide.html"><strong>ULT Freezer Guide</strong><span>Power, cooling &amp; alarm scenarios</span></a>
             <a href="critical-laboratory-alarm-guide.html"><strong>Critical Alarm Guide</strong><span>Detection, routing &amp; escalation</span></a>
@@ -139,6 +139,60 @@
       </div>
     </section>
 
+    <section class="section sample-register-section" id="sample-risk-register">
+      <div class="container">
+        <div class="register-heading reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Sample Risk Register</p>
+            <h2>From an infrastructure observation to a decision.</h2>
+            <p>The BFS register connects laboratory criticality, existing safeguards, failure exposure and recovery readiness so leadership can see what needs attention first.</p>
+          </div>
+          <aside class="register-formula">
+            <span>Assessment lens</span>
+            <strong>Criticality × Exposure × Response</strong>
+            <p>Likelihood and consequence establish the baseline. Detectability, redundancy, recurrence and recovery readiness shape the final priority.</p>
+          </aside>
+        </div>
+        <div class="risk-register-wrap reveal" role="region" aria-label="Representative laboratory infrastructure risk register" tabindex="0">
+          <table class="risk-register">
+            <thead><tr><th>Critical function</th><th>Infrastructure dependency</th><th>Existing safeguard</th><th>Exposure identified</th><th>Risk lens</th><th>Priority</th><th>Recommended response</th></tr></thead>
+            <tbody>
+              <tr><td data-label="Critical function"><strong>ULT sample storage</strong><span>Irreplaceable biological material</span></td><td data-label="Dependency">Emergency power · monitoring · communications</td><td data-label="Existing safeguard">Generator-backed receptacle and local temperature alarm</td><td data-label="Exposure">After-hours escalation has not been tested end to end.</td><td data-label="Risk lens"><div class="lens-scores"><span><b>3</b>Likelihood</span><span><b>5</b>Consequence</span><span><b>Low</b>Detectability</span><span><b>Weak</b>Recovery</span></div></td><td data-label="Priority"><span class="register-badge critical">Critical</span></td><td data-label="Response">Test the complete alarm path, confirm escalation contacts and validate sample-relocation capacity.</td></tr>
+              <tr><td data-label="Critical function"><strong>Cell-culture environment</strong><span>Controlled research space</span></td><td data-label="Dependency">HVAC · room controls · pressure monitoring</td><td data-label="Existing safeguard">BAS monitoring and local environmental display</td><td data-label="Exposure">Recovery sequence and acceptable interruption are not documented.</td><td data-label="Risk lens"><div class="lens-scores"><span><b>3</b>Likelihood</span><span><b>4</b>Consequence</span><span><b>Med</b>Detectability</span><span><b>Weak</b>Recovery</span></div></td><td data-label="Priority"><span class="register-badge high">High</span></td><td data-label="Response">Confirm limits, alarm timing, failure response and temporary operating controls.</td></tr>
+              <tr><td data-label="Critical function"><strong>Equipment cooling</strong><span>Heat-sensitive analytical equipment</span></td><td data-label="Dependency">Chilled water · pumps · controls</td><td data-label="Existing safeguard">Duty/standby pumping arrangement</td><td data-label="Exposure">Common controls and power may defeat intended redundancy.</td><td data-label="Risk lens"><div class="lens-scores"><span><b>2</b>Likelihood</span><span><b>5</b>Consequence</span><span><b>Med</b>Detectability</span><span><b>Fair</b>Recovery</span></div></td><td data-label="Priority"><span class="register-badge high">High</span></td><td data-label="Response">Trace common dependencies and verify automatic transfer under controlled conditions.</td></tr>
+              <tr><td data-label="Critical function"><strong>After-hours response</strong><span>Unattended critical conditions</span></td><td data-label="Dependency">BAS · network · notification service · staffing</td><td data-label="Existing safeguard">Email notification to a shared distribution list</td><td data-label="Exposure">No acknowledgement requirement or secondary escalation path.</td><td data-label="Risk lens"><div class="lens-scores"><span><b>4</b>Likelihood</span><span><b>4</b>Consequence</span><span><b>Low</b>Detectability</span><span><b>Weak</b>Recovery</span></div></td><td data-label="Priority"><span class="register-badge critical">Critical</span></td><td data-label="Response">Define acknowledgement and escalation rules, then test with actual responders.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="register-note reveal"><strong>Representative example only.</strong> Actual ratings are established for the facility, laboratory process, existing controls and acceptable recovery time.</div>
+      </div>
+    </section>
+
+    <section class="section maturity-section" id="maturity">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">Laboratory Resilience Maturity</p><h2>Move from responding to failures to seeing them coming.</h2><p>BFS helps clients understand their current operating maturity and identify the practical capabilities required for the next stage.</p></div>
+        <div class="maturity-track reveal" aria-label="Five levels of laboratory resilience maturity">
+          <article class="maturity-stage stage-1"><span>01</span><div class="maturity-icon" aria-hidden="true">!</div><h3>Reactive</h3><p>Issues are addressed after an alarm, excursion or failure.</p><small>Restore service</small></article>
+          <article class="maturity-stage stage-2"><span>02</span><div class="maturity-icon" aria-hidden="true">◎</div><h3>Stabilized</h3><p>Critical assets and immediate vulnerabilities are documented.</p><small>Know the exposure</small></article>
+          <article class="maturity-stage stage-3"><span>03</span><div class="maturity-icon" aria-hidden="true">✓</div><h3>Controlled</h3><p>Alarms, testing, procedures and ownership are standardized.</p><small>Trust the response</small></article>
+          <article class="maturity-stage stage-4"><span>04</span><div class="maturity-icon" aria-hidden="true">↗</div><h3>Proactive</h3><p>Recurrence and condition trends guide maintenance priorities.</p><small>Act on signals</small></article>
+          <article class="maturity-stage stage-5"><span>05</span><div class="maturity-icon" aria-hidden="true">◇</div><h3>Predictive</h3><p>Connected data identifies degradation before scientific impact.</p><small>Prevent disruption</small></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section operating-model-section">
+      <div class="container operating-model-grid">
+        <div class="section-heading light reveal"><p class="eyebrow">The Complete Operating Model</p><h2>Reliable infrastructure requires more than reliable equipment.</h2><p>BFS reviews the people, processes and technologies that must work together to protect critical laboratory operations.</p></div>
+        <div class="ppt-model reveal">
+          <article><div class="model-icon people" aria-hidden="true"><span></span><span></span><span></span></div><p class="model-label">People</p><h3>Clear ownership</h3><ul><li>Laboratory–Facilities coordination</li><li>After-hours coverage</li><li>Training and competency</li><li>Vendor accountability</li></ul></article>
+          <article><div class="model-icon process" aria-hidden="true"><i></i><i></i><i></i></div><p class="model-label">Process</p><h3>Repeatable response</h3><ul><li>Alarm and work-order workflow</li><li>Escalation and acknowledgement</li><li>Change control</li><li>Verified incident closure</li></ul></article>
+          <article><div class="model-icon technology" aria-hidden="true"><i></i></div><p class="model-label">Technology</p><h3>Trusted signals</h3><ul><li>BAS and independent monitoring</li><li>Sensor and data quality</li><li>Trend and recurrence analysis</li><li>Resilient communications</li></ul></article>
+          <div class="model-outcome"><span>BFS outcome</span><strong>Infrastructure risk converted into coordinated action.</strong></div>
+        </div>
+      </div>
+    </section>
+
     <section class="section section-navy process-section">
       <div class="container">
         <div class="section-heading light reveal"><p class="eyebrow">The Assessment Process</p><h2>Discover. Assess. Prioritize. Act.</h2></div>
@@ -152,7 +206,19 @@
       </div>
     </section>
 
-    <section class="section deliverable-section">
+    <section class="section action-roadmap-section">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">Phased Action Roadmap</p><h2>Separate what protects the laboratory now from what requires capital planning.</h2></div>
+        <div class="roadmap-rail reveal">
+          <article><span class="roadmap-time">0–30 days</span><div><strong>Protect</strong><h3>Immediate safeguards</h3><p>Close urgent response, alarm, documentation and temporary-control gaps.</p></div></article>
+          <article><span class="roadmap-time">1–3 months</span><div><strong>Stabilize</strong><h3>Operational controls</h3><p>Verify responsibilities, testing, maintenance actions and critical procedures.</p></div></article>
+          <article><span class="roadmap-time">3–12 months</span><div><strong>Improve</strong><h3>Engineering priorities</h3><p>Advance targeted studies, optimization and reliability improvements.</p></div></article>
+          <article><span class="roadmap-time">1–3 years</span><div><strong>Strengthen</strong><h3>Capital resilience</h3><p>Plan renewal, redundancy and major infrastructure upgrades.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section deliverable-section" id="deliverables">
       <div class="container playbook-two-col">
         <div class="section-heading reveal"><p class="eyebrow">What the Client Receives</p><h2>A decision-ready view of risk, safeguards and next steps.</h2><p>The scope can be tailored to the facility. Where detailed design, testing or code analysis is needed, BFS can define the next engineering step and the information required to move forward.</p></div>
         <div class="playbook-deliverables reveal">
@@ -194,7 +260,7 @@
     </section>
 
     <section class="section final-playbook-cta">
-      <div class="container final-cta-card reveal"><div><p class="eyebrow">Start with a focused discussion</p><h2>Understand where infrastructure risk is concentrated and what to address first.</h2><p>Tell us the type of laboratory or facility, the systems or equipment of greatest concern, any recent event or expansion need, approximate size/location and your preferred timeline.</p></div><div class="final-cta-actions"><a class="btn" href="index.html#contact">Request a Laboratory Infrastructure Risk Assessment</a><a class="text-link dark" href="25-questions.html">Read the 25 Questions checklist →</a></div></div>
+      <div class="container final-cta-card reveal"><div><p class="eyebrow">From assessment to engineering action</p><h2>Understand the risk, then define what it takes to fix it.</h2><p>BFS can begin with a focused infrastructure assessment and, where follow-up work is needed, help develop the technical scope, requirements, specifications, design-review approach, commissioning strategy and project priorities needed to move forward.</p></div><div class="final-cta-actions"><a class="btn" href="index.html#contact">Discuss Your Facility or Project</a><a class="text-link dark" href="25-questions.html">Read the 25 Questions checklist →</a></div></div>
     </section>
   </main>
 
@@ -203,10 +269,10 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div><strong>BioFacility Solutions</strong><p class="footer-motto">Protecting science through resilient infrastructure.</p></div>
-      <div><p>Engineering + Laboratory Science</p><p>Ontario, Canada</p></div>
+      <div><p>Engineering + Laboratory Science</p><p>Infrastructure consulting &amp; project support</p><p>Ontario, Canada</p></div>
       <div><a href="index.html">Home</a><a href="index.html#contact">Request an Assessment</a></div>
     </div>
   </footer>
-  <script src="script.js"></script>
+  <script src="script.js?v=20"></script>
 </body>
 </html>
