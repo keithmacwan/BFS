@@ -874,3 +874,52 @@ body{background:#fff;color:var(--ink);font-size:17px;line-height:1.7}
   .alarm-summary ul{grid-template-columns:1fr}
   .site-footer{padding:25px 0}
 }
+
+
+/* v24 — laboratory-science advisory integration */
+.science-note{
+  margin:14px 0 2px;
+  padding:14px 16px;
+  border-left:3px solid var(--teal);
+  background:#f3f8f8;
+}
+.science-note span{
+  display:block;
+  margin-bottom:5px;
+  color:#087f84;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.science-note p{margin:0!important;font-size:14.5px!important;line-height:1.58!important;color:#4f6676!important}
+.science-bridge-lead{max-width:610px;color:#53687a;font-size:17px;line-height:1.6;margin:-14px 0 22px}
+
+.science-advisory-section{background:#f4f7f7}
+.science-advisory-heading{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(340px,.8fr);gap:84px;align-items:end;margin-bottom:42px}
+.science-advisory-heading h2{font:700 clamp(38px,4.3vw,58px)/1.06 Manrope,Inter,sans-serif;letter-spacing:-.045em;margin:0;color:var(--navy);max-width:760px}
+.science-advisory-heading>p{margin:0;color:#53687a;font-size:17px;line-height:1.65;max-width:590px}
+.science-advisory-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid #d6e1e4;border-left:1px solid #d6e1e4}
+.science-advisory-card{background:#fff;padding:28px 30px 30px;border-right:1px solid #d6e1e4;border-bottom:1px solid #d6e1e4;min-height:235px}
+.science-advisory-card>span{display:block;color:var(--teal);font-weight:800;font-size:13px;letter-spacing:.09em;margin-bottom:24px}
+.science-advisory-card h3{font:700 23px/1.22 Manrope,Inter,sans-serif;letter-spacing:-.025em;color:var(--navy);margin:0 0 10px}
+.science-advisory-card p{margin:0;color:#586d7d;font-size:15px;line-height:1.65}
+
+.scientific-lens-section{background:#f4f7f7}
+.scientific-lens-grid,.biomaterial-lens-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1fr);gap:90px;align-items:start}
+.scientific-lens-copy>p,.biomaterial-lens-grid>div:last-child>p{font-size:17px;line-height:1.72;color:#53687a;margin:0 0 22px}
+.scientific-lens-tags{display:flex;flex-wrap:wrap;gap:9px}
+.scientific-lens-tags span{display:inline-flex;align-items:center;min-height:34px;padding:7px 11px;border:1px solid #cfe0e3;border-radius:999px;background:#fff;color:#24445a;font-size:12px;font-weight:700}
+.biomaterial-lens-section{background:#f4f7f7}
+.biomaterial-lens-grid h2{font:700 clamp(38px,4.2vw,56px)/1.06 Manrope,Inter,sans-serif;letter-spacing:-.045em;color:var(--navy);margin:8px 0 0}
+
+@media (max-width: 900px){
+  .science-advisory-heading,.scientific-lens-grid,.biomaterial-lens-grid{grid-template-columns:1fr;gap:28px}
+  .science-advisory-grid{grid-template-columns:1fr}
+  .science-advisory-card{min-height:auto}
+}
+@media (max-width: 620px){
+  .science-advisory-heading h2,.biomaterial-lens-grid h2{font-size:34px}
+  .science-advisory-card{padding:24px 20px}
+  .science-note{padding:12px 13px}
+}

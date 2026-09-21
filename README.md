@@ -1,4 +1,6 @@
-# BioFacility Solutions Website v17
+# BioFacility Solutions Website — v24
+
+This version builds on BFS Website v23 and integrates the laboratory-science advisory content provided by BFS, including scientific consequence mapping, equipment utility mapping, operational resilience, and laboratory quality/compliance support.
 
 Risk-framework and visual-proof update:
 - Replaced the public-facing term “Playbook” with “Framework” throughout the website.
