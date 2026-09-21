@@ -1,4 +1,4 @@
-# BioFacility Solutions Website — v24
+# BioFacility Solutions Website — v25
 
 This version builds on BFS Website v23 and integrates the laboratory-science advisory content provided by BFS, including scientific consequence mapping, equipment utility mapping, operational resilience, and laboratory quality/compliance support.
 
@@ -82,3 +82,9 @@ This package is intended for use only after BioFacility Solutions has received i
 - ULT technical-context/limitations section removed.
 - Critical Alarm hero now shows seven individual checklist links.
 - Visible em-dash styling removed from key site copy.
+
+
+## v25 update
+- Consolidated Engineering + Laboratory Science into a clear Infrastructure → Scientific Consequence → Engineering Action model.
+- Added four integrated laboratory-science advisory capabilities: scientific consequence mapping, equipment & utility planning, quality/change-control support, and operational resilience.
+- Strengthened Vinitha Macwan's laboratory science and quality positioning.

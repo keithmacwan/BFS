@@ -923,3 +923,35 @@ body{background:#fff;color:var(--ink);font-size:17px;line-height:1.7}
   .science-advisory-card{padding:24px 20px}
   .science-note{padding:12px 13px}
 }
+
+/* v25 — integrated Engineering + Laboratory Science model */
+.integrated-model-section{background:#f4f7f7}
+.integrated-model-head{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(330px,.8fr);gap:76px;align-items:end;margin-bottom:34px}
+.integrated-model-head h2{font:700 clamp(38px,4.3vw,58px)/1.06 Manrope,Inter,sans-serif;letter-spacing:-.045em;margin:0;color:var(--navy);max-width:760px}
+.integrated-model-head>p{margin:0;color:#53687a;font-size:17px;line-height:1.65;max-width:590px}
+.consequence-flow{display:grid;grid-template-columns:1fr 40px 1fr 40px 1fr;align-items:stretch;border:1px solid #d6e1e4;background:#fff}
+.consequence-flow article{padding:27px 28px 29px;min-height:180px}
+.consequence-flow article span{display:block;color:var(--teal);font-size:11px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;margin-bottom:20px}
+.consequence-flow article h3{font:700 22px/1.22 Manrope,Inter,sans-serif;letter-spacing:-.025em;color:var(--navy);margin:0 0 10px}
+.consequence-flow article p{margin:0;color:#596d7d;font-size:14.5px;line-height:1.65}
+.consequence-arrow{display:grid;place-items:center;color:#0a9198;font-size:24px;border-left:1px solid #d6e1e4;border-right:1px solid #d6e1e4;background:#f8fbfb}
+.science-capability-strip{display:grid;grid-template-columns:repeat(4,1fr);margin-top:18px;border-top:1px solid #d6e1e4;border-left:1px solid #d6e1e4}
+.science-capability-strip article{padding:20px 21px 22px;background:#fff;border-right:1px solid #d6e1e4;border-bottom:1px solid #d6e1e4}
+.science-capability-strip strong{display:block;font:700 15.5px/1.35 Manrope,Inter,sans-serif;color:var(--navy);margin-bottom:7px}
+.science-capability-strip p{margin:0;color:#607383;font-size:12.5px;line-height:1.55}
+.consequence-mini-flow{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin-top:18px;padding-top:16px;border-top:1px solid #d3e0e3}
+.consequence-mini-flow span{display:inline-flex;align-items:center;min-height:32px;padding:6px 10px;border:1px solid #cfe0e3;border-radius:999px;background:#fff;color:#24445a;font-size:11.5px;font-weight:700}
+.consequence-mini-flow b{color:var(--teal);font-size:15px}
+@media(max-width:980px){
+  .integrated-model-head{grid-template-columns:1fr;gap:24px}
+  .consequence-flow{grid-template-columns:1fr}
+  .consequence-arrow{min-height:36px;border-left:0;border-right:0;border-top:1px solid #d6e1e4;border-bottom:1px solid #d6e1e4;transform:rotate(90deg)}
+  .consequence-flow article{min-height:auto}
+  .science-capability-strip{grid-template-columns:1fr 1fr}
+}
+@media(max-width:620px){
+  .integrated-model-head h2{font-size:34px}
+  .consequence-flow article{padding:23px 20px}
+  .science-capability-strip{grid-template-columns:1fr}
+  .science-capability-strip article{padding:18px 20px}
+}
