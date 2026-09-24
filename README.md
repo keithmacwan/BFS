@@ -15,7 +15,7 @@ Credentials, client assurance and readability update:
 - Expanded the founder biographies while keeping each well under 800 words.
 - Keith's biography is grounded in the available resume, including healthcare infrastructure, BAS/controls, commissioning, operational readiness and his University of Toronto M.Eng.
 - Vinitha's biography remains intentionally conservative because a separate Vinitha resume was not located in the available files; it uses the laboratory-science information already provided for the site plus the MSc credential supplied by the client.
-- Added a client-assurance strip covering professional liability insurance, principal-led engagements and the Engineering + Laboratory Science model.
+- Added a client-assurance strip covering professional engineering accountability, principal-led engagements and the Engineering + Laboratory Science model.
 - Increased small numbering throughout service accordions, market cards, process steps, risk frameworks and checklist items.
 
 **Insurance publishing note:** Keep the professional-liability statement live only after the policy is active and the wording matches the actual coverage.
@@ -64,7 +64,7 @@ The homepage assessment form now posts to `contact.php`, which sends requests to
 
 
 ## Regulatory positioning
-This package is intended for use only after BioFacility Solutions has received its PEO Certificate of Authorization. Add the C of A number to the site once issued if desired. The site intentionally uses “engineering consulting services” and “professional engineering services” but does not use the restricted personal title “Consulting Engineer.”
+BioFacility Solutions has received its PEO Certificate of Authorization. The website now identifies Certificate of Authorization #100698710 and the legal operating entity, 1001727497 Ontario Inc. (o/a BioFacility Solutions). The site intentionally uses “engineering consulting services” and “professional engineering services” but does not use the restricted personal title “Consulting Engineer.”
 
 
 ## v20 hero copy refinement
@@ -77,7 +77,6 @@ This package is intended for use only after BioFacility Solutions has received i
 
 ## v23 update
 - Institutional experience integrated into each principal bio.
-- Professional liability insurance added to assurance/credential messaging.
 - Consulting cards and capability details tightened.
 - ULT technical-context/limitations section removed.
 - Critical Alarm hero now shows seven individual checklist links.
@@ -88,3 +87,11 @@ This package is intended for use only after BioFacility Solutions has received i
 - Consolidated Engineering + Laboratory Science into a clear Infrastructure → Scientific Consequence → Engineering Action model.
 - Added four integrated laboratory-science advisory capabilities: scientific consequence mapping, equipment & utility planning, quality/change-control support, and operational resilience.
 - Strengthened Vinitha Macwan's laboratory science and quality positioning.
+
+
+## v26 regulatory credential update
+
+- PEO Certificate of Authorization #100698710 added consistently across the public website.
+- Legal operating entity added to the footer and assurance messaging.
+
+- Liability-insurance claims are intentionally omitted from the public site in this build because the CofA approval letter does not itself confirm active insurance coverage. Add them once active coverage is confirmed.
