@@ -1,3 +1,10 @@
+# BioFacility Solutions Website — v30
+
+- Added a Standards & Codes Reference page and homepage standards-informed engineering section.
+- Added standards resource links to the Resources menu and BFS Resources section.
+- Added project-specific applicability language to avoid implying every standard applies to every engagement.
+- Retains v29 mobile layout fixes.
+
 # BioFacility Solutions Website — v25
 
 This version builds on BFS Website v23 and integrates the laboratory-science advisory content provided by BFS, including scientific consequence mapping, equipment utility mapping, operational resilience, and laboratory quality/compliance support.
