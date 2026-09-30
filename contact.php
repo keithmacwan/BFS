@@ -22,10 +22,11 @@ function clean_line($value, $maxLength = 180) {
 $name = clean_line($_POST['name'] ?? '', 120);
 $email = clean_line($_POST['email'] ?? '', 160);
 $organization = clean_line($_POST['organization'] ?? '', 180);
+$privacyConsent = !empty($_POST['privacy_consent']);
 $message = trim((string)($_POST['message'] ?? ''));
 $message = function_exists('mb_substr') ? mb_substr($message, 0, 4000) : substr($message, 0, 4000);
 
-if ($name === '' || $message === '' || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+if ($name === '' || $message === '' || !$privacyConsent || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
     header('Location: index.html?form=error#contact');
     exit;
 }

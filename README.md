@@ -1,3 +1,21 @@
+# BioFacility Solutions Website — v33
+
+- Moved the long-form resource call-to-action from a fixed/floating overlay to a centered inline block immediately above the footer.
+- Footer links (email, appointment, Privacy, Home) are no longer obscured by the CTA.
+- Retains all v32 privacy, SEO, social-preview, sitemap, robots.txt, branded 404, standards, and mobile fixes.
+
+# BioFacility Solutions Website — v32
+
+## v32 additions
+- Added Open Graph and Twitter Card metadata to all public HTML pages.
+- Added `assets/bfs-social-preview.png` (1200 × 630) for LinkedIn, Slack and email link previews.
+- Added a dedicated `contact.html` page and Contact navigation link.
+- Added “Project consultations by appointment” messaging alongside the BFS email address.
+- Added `privacy.html` and `terms.html`, plus privacy consent language on inquiry forms.
+- Added `robots.txt`, `sitemap.xml`, and branded `404.html`.
+- Updated `contact.php` to redirect to the dedicated Contact page and require form consent.
+- Retained all v30 standards integration and prior mobile/layout fixes.
+
 # BioFacility Solutions Website — v30
 
 - Added a Standards & Codes Reference page and homepage standards-informed engineering section.
@@ -102,3 +120,10 @@ BioFacility Solutions has received its PEO Certificate of Authorization. The web
 - Legal operating entity added to the footer and assurance messaging.
 
 - Liability-insurance claims are intentionally omitted from the public site in this build because the CofA approval letter does not itself confirm active insurance coverage. Add them once active coverage is confirmed.
+
+
+## v32 changes
+- Removed standalone Contact page and Contact navigation item.
+- Request an Assessment links now go directly to the homepage assessment form.
+- Removed Terms of Use page and Terms links.
+- Retained Privacy Policy, sitemap, robots.txt, Open Graph metadata, and branded 404 page.
