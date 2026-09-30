@@ -63,3 +63,27 @@ if (formStatus && formState) {
     formStatus.classList.add('form-error');
   }
 }
+
+
+// v28: make both the header brand and "Back to top" return to the true page top.
+function scrollToAbsoluteTop(event) {
+  if (event) event.preventDefault();
+  window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  if (window.location.hash === '#top') {
+    history.replaceState(null, '', window.location.pathname + window.location.search);
+  }
+}
+
+document.querySelectorAll('a[href="#top"]').forEach((link) => {
+  link.addEventListener('click', scrollToAbsoluteTop);
+});
+
+const brandHomeLink = document.querySelector('.brand');
+if (brandHomeLink) {
+  brandHomeLink.addEventListener('click', (event) => {
+    const currentFile = window.location.pathname.split('/').pop() || 'index.html';
+    if (currentFile === 'index.html' || currentFile === '') {
+      scrollToAbsoluteTop(event);
+    }
+  });
+}
