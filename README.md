@@ -1,3 +1,17 @@
+# BioFacility Solutions Website — v34
+
+- Full-site editorial and positioning pass while retaining the existing visual design and the core tagline **“Protecting science through resilient infrastructure.”**
+- Broadened the homepage from laboratory-only positioning to professional engineering and critical-infrastructure advisory for life sciences, healthcare, research and other critical facilities.
+- Preserved **Laboratory Infrastructure Risk Assessment** as the flagship lab-specific service and strengthened the Engineering + Laboratory Science differentiation.
+- Added **Equipment & Infrastructure Feasibility** and a new **When to Call BioFacility Solutions** section.
+- Expanded Industries to include pharmaceutical/biopharmaceutical, biotechnology/life sciences, universities, diagnostic/analytical labs and other critical/technical facilities.
+- Reframed Funding Readiness as **Equipment, Capital & Funding Readiness** to cover equipment procurement, renovation, expansion, capital planning and research funding.
+- Strengthened the full project lifecycle from feasibility and assessment through design, specifications, procurement support, commissioning and turnover.
+- Broadened sitewide calls to action to **Discuss a Project / Discuss Your Facility or Project**.
+- Moved standards information lower on the homepage so visitors first understand services, industries and differentiators before technical credibility detail.
+- Standardized the company name everywhere as **BioFacility Solutions**.
+- Updated CSS/JS cache-busting references to v34.
+
 # BioFacility Solutions Website — v33
 
 - Moved the long-form resource call-to-action from a fixed/floating overlay to a centered inline block immediately above the footer.

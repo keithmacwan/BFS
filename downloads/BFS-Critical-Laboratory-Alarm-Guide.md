@@ -1,8 +1,8 @@
 # Are Critical Laboratory Alarms Reaching the Right Person at the Right Time?
 
-## A Bio Facility Solutions Guide to Detection, Notification, Escalation and Response
+## A BioFacility Solutions Guide to Detection, Notification, Escalation and Response
 
-**Bio Facility Solutions | Engineering + Laboratory Science**
+**BioFacility Solutions | Engineering + Laboratory Science**
 
 A critical alarm is only useful when the correct condition is detected, classified appropriately, transmitted reliably, delivered to the right people, acknowledged, escalated when necessary and followed by a clear response.
 
@@ -59,4 +59,4 @@ A critical alarm is only useful when the correct condition is detected, classifi
 
 This guide is an infrastructure-risk and alarm-strategy discussion tool. It does not prescribe universal alarm limits, notification times or response procedures. Criticality, thresholds, delays, escalation timing and operator actions should be established for the specific laboratory process, equipment, validated requirements, institutional policies and applicable codes or standards.
 
-**Bio Facility Solutions — Assess • Optimize • Protect**
+**BioFacility Solutions — Assess • Optimize • Protect**

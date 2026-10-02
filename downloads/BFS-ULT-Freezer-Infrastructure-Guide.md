@@ -2,7 +2,7 @@
 
 ## Power, Cooling and Alarm Failure Scenarios
 
-**Bio Facility Solutions | Engineering + Laboratory Science**
+**BioFacility Solutions | Engineering + Laboratory Science**
 
 A -80°C freezer is only as resilient as the systems around it. Critical cold storage depends on electrical power, emergency power, room cooling, refrigeration equipment, monitoring, communications, alarm escalation, backup capacity and a practiced recovery plan working together.
 
@@ -158,7 +158,7 @@ This guide is an infrastructure-risk discussion tool, not a freezer operating pr
 
 ---
 
-**Bio Facility Solutions**  
+**BioFacility Solutions**  
 **Assess • Optimize • Protect**
 
 Request a cold-storage infrastructure risk review at **biofacilitysolutions.ca**.

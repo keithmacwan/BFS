@@ -2,7 +2,7 @@
 
 ## How Laboratory Leaders Protect Research, Reduce Downtime and Prioritize Infrastructure Investment
 
-**Bio Facility Solutions | Engineering + Laboratory Science**
+**BioFacility Solutions | Engineering + Laboratory Science**
 
 > Laboratory performance depends on more than scientific equipment. HVAC, emergency power, cold storage, controls, alarms and facility response systems must work together—especially when conditions begin to fail.
 
@@ -22,7 +22,7 @@ The challenge is rarely the absence of equipment. It is often the gap between sy
 - An HVAC system may meet normal operating requirements, but its failure response may depend on undocumented manual actions.
 - A critical alarm may reach a control room, yet no one may have a clear response procedure, contact list or recovery time objective.
 
-Bio Facility Solutions helps organizations find these vulnerabilities before they become operational events.
+BioFacility Solutions helps organizations find these vulnerabilities before they become operational events.
 
 ---
 
@@ -270,11 +270,11 @@ Research laboratories, tissue and sample environments, imaging and specialized i
 
 ---
 
-# Why Bio Facility Solutions
+# Why BioFacility Solutions
 
 ## Engineering + Laboratory Science
 
-Bio Facility Solutions bridges the gap between building systems and laboratory operations.
+BioFacility Solutions bridges the gap between building systems and laboratory operations.
 
 Engineering reviews often focus on whether equipment and systems function as designed. Laboratory teams focus on whether conditions remain suitable for samples, processes and research. BFS connects both perspectives so infrastructure decisions are based on the actual consequence to the science.
 
