@@ -1,3 +1,11 @@
+# BioFacility Solutions Website — v34.5
+
+- Added **Equipment Infrastructure Readiness** as a dedicated BFS service page while preserving all v34.4 Funding Application Technical Support content.
+- Reframed Core Capability /06 around equipment that is **purchased, leased, rented, relocated or temporarily installed**.
+- Added a dedicated equipment-readiness callout in the Equipment, Capital & Funding Readiness section.
+- Added vendor and rental-provider positioning, site-readiness review, utility translation, gap assessment, enabling-work definition, installation coordination and commissioning support.
+- Added the new page to `sitemap.xml` and updated homepage cache-busting to `v34-5`.
+
 # BioFacility Solutions Website — v34
 
 - Full-site editorial and positioning pass while retaining the existing visual design and the core tagline **“Protecting science through resilient infrastructure.”**
